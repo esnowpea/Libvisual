@@ -21,7 +21,7 @@ LIB_FLAGS = -L$(LIBFT_DIR) -lft -L$(LIBMLX_DIR) -lmlx -framework OpenGL -framewo
 INCLUDES = -I$(HEADERS_DIR) -I$(LIBMLX_HEADERS) -I$(LIBFT_HEADERS)
 
 LIBFT = $(LIBFT_DIR)libft.a
-LIBFT_DIR = ../Libft/
+LIBFT_DIR = ../../Libft/
 LIBFT_HEADERS = $(LIBFT_DIR)inc/
 
 LIBMLX = $(LIBMLX_DIR)libmlx.a
